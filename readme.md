@@ -14,7 +14,7 @@ This is a Flask application that allows users to search for movies, view their d
 
 ## How to Run the Project
 
-###If your operating system is Windows**
+###If your operating system is Windows
 1. . You can download the executable version of the application from the following link: [Download the executable](https://github.com/Golarter/API-Integration/blob/main/dist/app.exe)
     - After clicking the link, you will be redirected to the file's page.
     - Click on the three dots located at the top right of the file section.
