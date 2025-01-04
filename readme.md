@@ -40,16 +40,13 @@ This is a Flask application that allows users to search for movies, view their d
 Once the application is running, open your browser and go to http://127.0.0.1:5000.
 
 1. Search for a movie:
-    - You will see a simple interface like the one shown in the first image. ![IMAGE 1](https://github.com/Golarter/API-Integration/blob/282809c6fef90019f8476c2c00f66c4f4bd0e693/Templates/IMG%201.jpg)
+    - You will see a simple interface like the one shown in the first image.
+    - ![IMAGE 1](https://github.com/Golarter/API-Integration/blob/282809c6fef90019f8476c2c00f66c4f4bd0e693/Templates/IMG%201.jpg)
     - Enter the name of a movie (e.g., "Red One") in the input field labeled "Movie Title."
     - Press Enter or click the Search button to retrieve the results.
 2. View the results:
-    - The application will display details about the movie and the weather conditions on its release date, as shown in the second image. ![IMAGE 2](https://github.com/Golarter/API-Integration/blob/282809c6fef90019f8476c2c00f66c4f4bd0e693/Templates/IMG%202.jpg)
-        - The details include:
-        - The city (e.g., Bogotá).
-        - The movie title.
-        - The release date.
-        - The genres of the movie.
-        - The minimum and maximum temperatures on the release date.
+    - The application will display details about the movie and the weather conditions on its release date, as shown in the second image.
+    - ![IMAGE 2](https://github.com/Golarter/API-Integration/blob/282809c6fef90019f8476c2c00f66c4f4bd0e693/Templates/IMG%202.jpg)
+
 3. Send the results to the webhook:
     - The application will automatically send the retrieved data to the webhook after fetching the results.
