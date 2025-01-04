@@ -14,13 +14,16 @@ This is a Flask application that allows users to search for movies, view their d
 
 ## How to Run the Project
 
-1. Clone this repository.
-2. Install the dependencies:
+1. Clone this repository. git clone
+   ```
+      https://github.com/Golarter/API-Integration/tree/main
+   ```
+3. Install the dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run the application:
+4. Run the application:
    ```
    python app.py
    ```
-4. Open your browser and go to `http://127.0.0.1:5000`.
+5. Open your browser and go to `http://127.0.0.1:5000` in case your browser does not open automatically.
