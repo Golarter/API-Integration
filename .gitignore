@@ -1,0 +1,17 @@
+# Entorno virtual
+env/
+venv/
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de logs
+*.log
+
+# Configuración del sistema
+.DS_Store
+
+# Archivos de base de datos
+*.sqlite3

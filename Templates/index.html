@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie and Weather Info</title>
+</head>
+<body>
+    <h1>Search for a Movie</h1>
+    <form method="POST">
+        <label for="movie_title">Movie Title:</label>
+        <input type="text" id="movie_title" name="movie_title" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if data %}
+        <h2>Results:</h2>
+        <p><strong>Title:</strong> {{ data.movie_title }}</p>
+        <p><strong>Release Date:</strong> {{ data.release_date }}</p>
+        <p><strong>Genres:</strong> {{ data.genres }}</p>
+        {% if data.poster_url %}
+            <p><strong>Poster:</strong></p>
+            <img src="{{ data.poster_url }}" alt="Movie Poster" style="width:300px;">
+        {% endif %}
+    {% elif error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
